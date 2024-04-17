@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles1.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-left">
+          <img src="logo1.jpg" alt="MVD">
+          <a href="home1.html"><h1>Expenses tracker</h1></a>
+        </div>
+        <nav class="header-right">
+          <ul>
+            <li><a href="home1.html">Tracker</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="about1.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <div class="input-container">
+            <input type="text" id="expense-description" placeholder="Enter expense description">
+            <input type="number" id="expense-amount" placeholder="Enter expense amount">
+            <select id="expense-category">
+                <option value="food">Food</option>
+                <option value="transportation">Transportation</option>
+                <option value="housing">Housing</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="Hospital">Hospital</option>
+                <option value="Basic Need">Basic needs</option>
+                <option value="Groceries">Groceries</option>
+                <option value="Gadgets">Gadgets</option>
+
+            </select>
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+        <div id="expense-list"></div>
+        <div id="total-expenses"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024  MV DEEPESH. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
