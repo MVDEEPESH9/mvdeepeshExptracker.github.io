@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3b4dec;
+    padding: 20px 0;
+    text-align: center;
+    color: #EABE6C;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    margin-right: 10px;
+    padding: 5px;
+}
+button {
+    padding: 5px 10px;
+    background-color: #af8de6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.expense-item {
+    margin-bottom: 10px;
+}
+
+.total-expenses {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #3b4dec;
+    color: #EABE6C;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.calculator {
+    max-width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    border: 10px solid rgb(255, 230, 0);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-display {
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator-buttons button {
+    padding: 15px;
+    height: 70px;
+    font-size: 18px;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.calculator-buttons button:hover {
+    background-color: #e0e0e0;
+}
+
+.hidden {
+    display: none;
+}
+header {
+    background-color : 	#393e46;
+    padding: 2px 6fapx; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px; 
+  }
+  
+  .header-left h1 {
+    color: #f2f2f2;
+    font-size: 24px;
+    font-family: monospace;
+    margin: 0;
+    margin-left: 30px;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .header-right ul li a {
+    color: #251f04;
+    text-decoration: none;
+    padding: 8px 18px;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px rgba(36, 219, 173, 0.7); 
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(36, 219, 173, 0.7); 
+    }
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 15px rgba(241, 229, 124, 0.795), 0 0 20px rgba(241, 229, 124, 0.795), 0 0 30px rgba(241, 229, 124, 0.795);
+    }
+    to {
+      text-shadow: 0 0 20px rgba(241, 229, 124, 0.795), 0 0 30px rgba(241, 229, 124, 0.795), 0 0 40px rgba(241, 229, 124, 0.795);
+    }
+  }
+  .header-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: ExtraBold 800 Italic;
+    font-size: larger;
+  }
+  
+  .header-right ul li {
+    display: inline;
+  }
+  
+  .header-right ul li a {
+    color: #f2f2f2;
+    text-decoration: solid;
+    padding: 10px 20px;
+    font-size: larger;
+  }
+  
+  .header-right ul li a:hover {
+    background-color: #f96d00;
+  }
+  body {
+    background-image: url('pexels-tima-miroshnichenko-6694543.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 60%;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    
+    background-color: #393e46;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+
